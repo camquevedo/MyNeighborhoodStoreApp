@@ -15,20 +15,94 @@ public class Main {
     public static void main(String[] args) {
         scanner = new Scanner(System.in);
 
-        Product[] products = new Product[10];
+        Product[] products = new Product[20];
 
-        products[1] = new Product();
-        products[1].name = "Colgate";
-        products[1].price = 15.000f;
-        System.out.println("product name: " + products[1].name);
+        int curProduct = 0;
+        products[curProduct] = new Product();
+        products[curProduct].name = "Colgate";
+        products[curProduct].price = 15.000f;
+        System.out.println("product name: " + products[curProduct].name);
 
-        products[2] = new Product();
-        products[2].name = "Leche Entera Alpina";
-        products[2].description = "Bolsa x 1.100 ml";
-        products[2].category = "Lacteo/Huevos y refrigerados";
-        products[2].tags = "Leches";
-        products[2].price = 3100;
-        products[2].imageUrl = "https://www.eurosupermercados.com/eurosupermercado2020//contenidos/images/ecommerce_productos/7702001041404.jpg";
+        curProduct++;
+        products[curProduct] = new Product();
+        products[curProduct].name = "Leche Entera Alpina" + curProduct;
+        products[curProduct].description = "Bolsa x 1.100 ml";
+        products[curProduct].category = "Lacteo/Huevos y refrigerados";
+        products[curProduct].tags = "Leches";
+        products[curProduct].price = 3100;
+        products[curProduct].imageUrl = "https://www.eurosupermercados.com/eurosupermercado2020//contenidos/images/ecommerce_productos/7702001041404.jpg";
+
+        curProduct++;
+        products[curProduct] = new Product();
+        products[curProduct].name = "Leche Entera Alpina" + curProduct;
+        products[curProduct].description = "Bolsa x 1.100 ml";
+        products[curProduct].category = "Lacteo/Huevos y refrigerados";
+        products[curProduct].tags = "Leches";
+        products[curProduct].price = 3100;
+        products[curProduct].imageUrl = "https://www.eurosupermercados.com/eurosupermercado2020//contenidos/images/ecommerce_productos/7702001041404.jpg";
+
+        curProduct++;
+        products[curProduct] = new Product();
+        products[curProduct].name = "Leche Entera Alpina" + curProduct;
+        products[curProduct].description = "Bolsa x 1.100 ml";
+        products[curProduct].category = "Lacteo/Huevos y refrigerados";
+        products[curProduct].tags = "Leches";
+        products[curProduct].price = 3100;
+        products[curProduct].imageUrl = "https://www.eurosupermercados.com/eurosupermercado2020//contenidos/images/ecommerce_productos/7702001041404.jpg";
+
+        curProduct++;
+        products[curProduct] = new Product();
+        products[curProduct].name = "Leche Entera Alpina" + curProduct;
+        products[curProduct].description = "Bolsa x 1.100 ml";
+        products[curProduct].category = "Lacteo/Huevos y refrigerados";
+        products[curProduct].tags = "Leches";
+        products[curProduct].price = 3100;
+        products[curProduct].imageUrl = "https://www.eurosupermercados.com/eurosupermercado2020//contenidos/images/ecommerce_productos/7702001041404.jpg";
+
+        curProduct++;
+        products[curProduct] = new Product();
+        products[curProduct].name = "Leche Entera Alpina" + curProduct;
+        products[curProduct].description = "Bolsa x 1.100 ml";
+        products[curProduct].category = "Lacteo/Huevos y refrigerados";
+        products[curProduct].tags = "Leches";
+        products[curProduct].price = 3100;
+        products[curProduct].imageUrl = "https://www.eurosupermercados.com/eurosupermercado2020//contenidos/images/ecommerce_productos/7702001041404.jpg";
+
+        curProduct++;
+        products[curProduct] = new Product();
+        products[curProduct].name = "Leche Entera Alpina" + curProduct;
+        products[curProduct].description = "Bolsa x 1.100 ml";
+        products[curProduct].category = "Lacteo/Huevos y refrigerados";
+        products[curProduct].tags = "Leches";
+        products[curProduct].price = 3100;
+        products[curProduct].imageUrl = "https://www.eurosupermercados.com/eurosupermercado2020//contenidos/images/ecommerce_productos/7702001041404.jpg";
+
+        curProduct++;
+        products[curProduct] = new Product();
+        products[curProduct].name = "Leche Entera Alpina" + curProduct;
+        products[curProduct].description = "Bolsa x 1.100 ml";
+        products[curProduct].category = "Lacteo/Huevos y refrigerados";
+        products[curProduct].tags = "Leches";
+        products[curProduct].price = 3100;
+        products[curProduct].imageUrl = "https://www.eurosupermercados.com/eurosupermercado2020//contenidos/images/ecommerce_productos/7702001041404.jpg";
+
+        curProduct++;
+        products[curProduct] = new Product();
+        products[curProduct].name = "Leche Entera Alpina" + curProduct;
+        products[curProduct].description = "Bolsa x 1.100 ml";
+        products[curProduct].category = "Lacteo/Huevos y refrigerados";
+        products[curProduct].tags = "Leches";
+        products[curProduct].price = 3100;
+        products[curProduct].imageUrl = "https://www.eurosupermercados.com/eurosupermercado2020//contenidos/images/ecommerce_productos/7702001041404.jpg";
+
+        curProduct++;
+        products[curProduct] = new Product();
+        products[curProduct].name = "Leche Entera Alpina" + curProduct;
+        products[curProduct].description = "Bolsa x 1.100 ml";
+        products[curProduct].category = "Lacteo/Huevos y refrigerados";
+        products[curProduct].tags = "Leches";
+        products[curProduct].price = 3100;
+        products[curProduct].imageUrl = "https://www.eurosupermercados.com/eurosupermercado2020//contenidos/images/ecommerce_productos/7702001041404.jpg";
         
         runMenu();
 
@@ -115,5 +189,4 @@ public class Main {
     private static void showHighlightProduct() {
         System.out.println("showHighlightProduct en ejecución ...Soon");
     }
-
 }
