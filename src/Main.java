@@ -13,6 +13,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
+
         scanner = new Scanner(System.in);
 
         Product[] products = new Product[20];
